@@ -21,9 +21,9 @@ class Mine_Object:
     
     def __str__(self) -> str:
         return f'''\t\tObject
-Object ID:{self.object_id}
-Name: {self.name}
-Stackable: {self.stackable}'''
+Object ID:  {self.object_id}
+Name:  {self.name}
+Stackable:  {self.stackable}'''
 
 #Complete
 class Armor(Mine_Object):
@@ -36,11 +36,11 @@ class Armor(Mine_Object):
 
     def __str__(self) -> str:
         return f'''\t\tArmor
-Object ID: {self.object_id}
-Name: {self.name}
-Stackable: {self.stackable}
-Rarity: {self.rarity}
-Durability: {self.durability}'''
+Object ID:  {self.object_id}
+Name:  {self.name}
+Stackable:  {self.stackable}
+Rarity:  {self.rarity}
+Durability:  {self.durability}'''
 
 #Complete
 class Block(Mine_Object):
@@ -53,12 +53,12 @@ class Block(Mine_Object):
 
     def __str__(self) -> str:
         return f'''\t\tBlock
-Object ID: {self.object_id}
-Name: {self.name}
-Stackable: {self.stackable}
-Tool: {self.tool}
-Blast Resistance: {self.blast_resistance}
-Flammable: {self.flammable}'''
+Object ID:  {self.object_id}
+Name:  {self.name}
+Stackable:  {self.stackable}
+Tool:  {self.tool}
+Blast Resistance:  {self.blast_resistance}
+Flammable:  {self.flammable}'''
 
 #Complete
 class Food(Mine_Object):
@@ -70,11 +70,11 @@ class Food(Mine_Object):
 
     def __str__(self) -> str:
         return f'''\t\tFood
-Object ID: {self.object_id}
-Name: {self.name}
-Stackable: {self.stackable}
-Renewable: {self.renewable}
-Restore: {self.restore}'''
+Object ID:  {self.object_id}
+Name:  {self.name}
+Stackable:  {self.stackable}
+Renewable:  {self.renewable}
+Restore:  {self.restore}'''
 
 #Complete
 class Potion(Mine_Object):
@@ -86,11 +86,11 @@ class Potion(Mine_Object):
 
     def __str__(self) -> str:
         return f'''\t\tPotion
-Object ID: {self.object_id}
-Name: {self.name}
-Stackable: {self.stackable}
-Rarity: {self.rarity}
-Effect: {self.effect}'''
+Object ID:  {self.object_id}
+Name:  {self.name}
+Stackable:  {self.stackable}
+Rarity:  {self.rarity}
+Effect:  {self.effect}'''
 
 #Complete
 class Tool(Mine_Object):
@@ -103,12 +103,12 @@ class Tool(Mine_Object):
 
     def __str__(self) -> str:
         return f'''\t\tTool
-Object ID: {self.object_id}
-Name: {self.name}
-Stackable: {self.stackable}
-Rarity: {self.rarity}
-Durability: {self.durability}
-Damage: {self.damage}'''
+Object ID:  {self.object_id}
+Name:  {self.name}
+Stackable:  {self.stackable}
+Rarity:  {self.rarity}
+Durability:  {self.durability}
+Damage:  {self.damage}'''
 
 #Complete    
 class All_Props(Mine_Object):
@@ -127,15 +127,15 @@ class All_Props(Mine_Object):
 
     def __str__(self) -> str:
         return f'''\t\tAll  Properties  Object
-Object ID: {self.object_id}
-Name: {self.name}
-Stackable: {self.stackable}
-Tool: {self.tool}
-Blast Resistance: {self.blast_resistance}
-Flammable: {self.flammable}
-Rarity: {self.rarity}
-Restore: {self.restore}
-Durability: {self.durability}
-Damage: {self.damage}
-Effect: {self.effect}
-Renewable: {self.renewable}'''
+Object ID:  {self.object_id}
+Name:  {self.name}
+Stackable:  {self.stackable}
+Tool:  {self.tool}
+Blast Resistance:  {self.blast_resistance}
+Flammable:  {self.flammable}
+Rarity:  {self.rarity}
+Restore:  {self.restore}
+Durability:  {self.durability}
+Damage:  {self.damage}
+Effect:  {self.effect}
+Renewable:  {self.renewable}'''
